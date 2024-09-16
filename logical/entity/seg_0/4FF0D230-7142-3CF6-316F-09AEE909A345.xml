@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4FF0D230-7142-3CF6-316F-09AEE909A345" name="SERVICIO">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-09 12:10:28 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<engineerTo>
+<item key="AAB7CD78-EEB7-9A4B-4C65-3553D702514B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_servicio" id="17BFBE82-8045-4631-EF56-7FA86250AE5C">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-09 12:10:41 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<engineerTo>
+<item key="AAB7CD78-EEB7-9A4B-4C65-3553D702514B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_servicio" id="B37CD26A-20E7-50C5-F562-B4E2717CD73B">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-16 04:13:41 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<engineerTo>
+<item key="AAB7CD78-EEB7-9A4B-4C65-3553D702514B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tiempo_servicio" id="6851ACCB-64CC-FA19-7A65-43038AF8996D">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-09 12:11:41 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<engineerTo>
+<item key="AAB7CD78-EEB7-9A4B-4C65-3553D702514B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo_servicio" id="17EBC91A-71AB-5B31-2B80-860FB763D876">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-09 12:11:19 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<engineerTo>
+<item key="AAB7CD78-EEB7-9A4B-4C65-3553D702514B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EDBFDE5F-9FA4-52D3-6C3D-EB06F0540B6F" name="SERVICIO PK">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-09 12:13:47 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AAB7CD78-EEB7-9A4B-4C65-3553D702514B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>17BFBE82-8045-4631-EF56-7FA86250AE5C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

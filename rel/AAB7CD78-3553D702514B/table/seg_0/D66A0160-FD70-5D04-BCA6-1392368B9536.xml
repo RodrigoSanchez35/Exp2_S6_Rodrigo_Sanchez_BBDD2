@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D66A0160-FD70-5D04-BCA6-1392368B9536" name="REPUESTO">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-10 00:08:28 UTC</createdTime>
+<generatorID>0B3C3A8C-D6ED-B576-B22E-A50DE1CDB507</generatorID>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_repuesto" id="631EB740-DB49-49DE-FF73-7851A4B9E77F">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-10 00:08:28 UTC</createdTime>
+<generatorID>727DC518-FB8F-1BDA-959B-0CAC23F00CB6</generatorID>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_repuesto" id="C6631039-A547-ECA7-B2FC-2866AB7EA3DB">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-10 00:08:28 UTC</createdTime>
+<generatorID>810D32F2-DD52-5C57-BAA0-A99EB080FEF3</generatorID>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad_repuesto" id="C670C5C4-C49F-C158-342D-FEB92675B35B">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-10 00:08:28 UTC</createdTime>
+<generatorID>51A1C2D4-D7CC-3563-584A-DA4C764AA495</generatorID>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="costo_repuesto" id="8D44AEC5-A654-B7F9-96CD-7DC1D2D7E456">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-10 00:08:28 UTC</createdTime>
+<generatorID>70B78E8B-1105-FECE-4456-DF44A8E214FD</generatorID>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERVICIO_REPUESTO_SERVICIO_REPUESTO_ID" id="2178C68D-6ED3-003B-2A9B-B80EDF0704D0">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-10 00:08:28 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A07238B-44BC-E27E-05C0-AF00E71D3D50" referredColumn="54545C72-954C-7563-D774-90839F7B8E0D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B00D174B-FFF4-6C56-0C26-112C5DE0AF69" name="REPUESTO_PK">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-10 00:08:28 UTC</createdTime>
+<generatorID>635547D7-7307-2EBB-7619-98DE4AA7C4C9</generatorID>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="631EB740-DB49-49DE-FF73-7851A4B9E77F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DD3BFE7-6AE3-F9B5-C052-19BAF0917F85" name="REPUESTO_SERVICIO_REPUESTO_FK">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-10 00:08:28 UTC</createdTime>
+<generatorID>4C53BBBA-0306-685C-CF29-9A1145C3A2DD</generatorID>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2178C68D-6ED3-003B-2A9B-B80EDF0704D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="774E6F5A-5732-FA56-EE5B-535D00AD5E17" name="ORDEN">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-09 12:08:22 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<engineerTo>
+<item key="AAB7CD78-EEB7-9A4B-4C65-3553D702514B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_orden" id="2327FBDB-87C0-A555-30BC-838A3FE8ED8B">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-09 12:08:49 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<engineerTo>
+<item key="AAB7CD78-EEB7-9A4B-4C65-3553D702514B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_orden" id="7183032B-2887-D2C8-882B-F140C5B9FFC5">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-09 12:09:12 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<engineerTo>
+<item key="AAB7CD78-EEB7-9A4B-4C65-3553D702514B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente_orden" id="DE6D2219-E375-057F-C742-5DC80255F62B">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-09 12:09:54 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<engineerTo>
+<item key="AAB7CD78-EEB7-9A4B-4C65-3553D702514B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="patente_vehiculo_orden" id="A962B9F5-CB8B-833D-934E-FA18B7CFF475">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-09 12:10:11 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<engineerTo>
+<item key="AAB7CD78-EEB7-9A4B-4C65-3553D702514B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="patente_vehiculo" id="A8ECD265-202F-81ED-8F6A-61B23BC0D4E5">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-09 12:17:17 UTC</createdTime>
+<generatorID>E55D964B-9E9B-1BD9-3671-9523C2E71A93</generatorID>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<engineerTo>
+<item key="AAB7CD78-EEB7-9A4B-4C65-3553D702514B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>13E8AA36-FD15-28E5-EFCE-E8783FA73AD7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="12F2A67F-0756-86EB-CCBC-7E93E4074F1A">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-09 12:17:45 UTC</createdTime>
+<generatorID>0827204D-7364-941C-AF2D-352A29DAC5C1</generatorID>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<engineerTo>
+<item key="AAB7CD78-EEB7-9A4B-4C65-3553D702514B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>54298054-3726-6612-1FC3-84C47C790105</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_orden" id="F0CFD4DB-C86A-E919-E4BF-F99069352564">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-16 04:08:32 UTC</createdTime>
+<generatorID>FE9EDE33-8512-A00C-3219-FEBE593C4745</generatorID>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<engineerTo>
+<item key="AAB7CD78-EEB7-9A4B-4C65-3553D702514B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D152672D-D796-90FD-B2F6-073C22CC39F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5884215-F9C0-915F-BFAB-52FFE7CC853C" name="ORDEN PK">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-09 12:09:10 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AAB7CD78-EEB7-9A4B-4C65-3553D702514B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2327FBDB-87C0-A555-30BC-838A3FE8ED8B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B3C3A8C-D6ED-B576-B22E-A50DE1CDB507" name="REPUESTO">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-09 12:12:16 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<engineerTo>
+<item key="AAB7CD78-EEB7-9A4B-4C65-3553D702514B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_repuesto" id="727DC518-FB8F-1BDA-959B-0CAC23F00CB6">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-09 12:12:23 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<engineerTo>
+<item key="AAB7CD78-EEB7-9A4B-4C65-3553D702514B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_repuesto" id="810D32F2-DD52-5C57-BAA0-A99EB080FEF3">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-09 12:12:40 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<engineerTo>
+<item key="AAB7CD78-EEB7-9A4B-4C65-3553D702514B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad_repuesto" id="51A1C2D4-D7CC-3563-584A-DA4C764AA495">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-09 12:12:57 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<engineerTo>
+<item key="AAB7CD78-EEB7-9A4B-4C65-3553D702514B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo_repuesto" id="70B78E8B-1105-FECE-4456-DF44A8E214FD">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-09 12:13:18 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<engineerTo>
+<item key="AAB7CD78-EEB7-9A4B-4C65-3553D702514B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="635547D7-7307-2EBB-7619-98DE4AA7C4C9" name="REPUESTO PK">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-09 12:12:37 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AAB7CD78-EEB7-9A4B-4C65-3553D702514B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>727DC518-FB8F-1BDA-959B-0CAC23F00CB6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

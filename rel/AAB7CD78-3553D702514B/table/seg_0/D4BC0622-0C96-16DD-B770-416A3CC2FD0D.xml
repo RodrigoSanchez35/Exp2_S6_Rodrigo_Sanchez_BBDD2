@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4BC0622-0C96-16DD-B770-416A3CC2FD0D" name="CLIENTE">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-10 00:08:28 UTC</createdTime>
+<generatorID>5C364575-3139-3B34-F304-E73AC1E78A83</generatorID>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="38785D9F-7005-034C-C6CE-DB871054F9A4">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-10 00:08:28 UTC</createdTime>
+<generatorID>54298054-3726-6612-1FC3-84C47C790105</generatorID>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_cliente" id="66B13BE4-F9E3-C06F-1E1C-C8DD4073955A">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-10 00:08:28 UTC</createdTime>
+<generatorID>1AD46DD2-339E-5810-80F8-E0156F3121FB</generatorID>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="domiciio_cliente" id="DD320EE4-9C2C-F32E-B66C-BD31BE627F9A">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-10 00:08:28 UTC</createdTime>
+<generatorID>A7BB08D2-7682-9836-74C6-6004458B3F98</generatorID>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_cliente" id="064FCF84-CDF8-2EDC-96D0-D5A05D24ACD3">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-10 00:08:28 UTC</createdTime>
+<generatorID>EFBD3F44-0DEB-3568-C8A1-EB71A9BD4853</generatorID>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A74A0480-823D-0975-DEF5-A6589848E4E5" name="CLIENTE_PK">
+<createdBy>rodrigosanchezcornejo</createdBy>
+<createdTime>2024-09-10 00:08:28 UTC</createdTime>
+<generatorID>EBBB367B-24A8-42FB-82FE-E056A7662721</generatorID>
+<ownerDesignName>Exp2_S6_Rodrigo_Sanchez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38785D9F-7005-034C-C6CE-DB871054F9A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
